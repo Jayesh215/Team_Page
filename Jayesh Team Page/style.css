@@ -1,0 +1,161 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+body,html{
+    width: 100%;
+    height: 100%;
+    background: linear-gradient();
+}
+
+.heading h1{
+    text-align: center;
+    margin-top: 40px;
+    color: #9b039b;
+}
+.heading h3{
+    text-align: center;
+    
+    color: black;
+}
+.heading hr{
+    width: 200px;
+    margin: 10px auto;
+    
+}
+
+/* section 1--------------------------------------------------------------------------------------------- */
+
+.top{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 60px 0px;
+    
+    
+
+}
+.card{
+    width: 350px;
+    height: 220px;
+    padding: 20px 20px;
+    text-align: justify;
+    
+    margin-bottom: 30px;
+    box-shadow: 0px 0px 10px rgba(137, 43, 226, 0.386);
+    
+}
+.card h3{
+    color: #9b039b;
+}
+.card p{
+    margin-top: 20px;
+}
+
+.d-flex{
+    box-sizing:content-box;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    width: 100%;
+    height: 240px;
+}
+
+#textbox{
+    padding-top: 190px;
+    box-shadow: none;
+}
+#emptybox{
+    visibility: hidden;
+}
+
+/* section 2--------------------------------------------------------------------------------------------- */
+#sec2-heading{
+    display: block;
+    text-align: center;
+    margin: 50px auto;
+    border-bottom: 1px solid #9b039b;
+    width: 300px;
+    color: #9b039b;
+}
+
+.mentor{
+    width: 280px;
+    height: 300px;
+    margin: 8px 40px 8px;
+    padding: 20px 20px;
+    text-align: justify;
+    margin-bottom: 30px;
+    
+}
+.mentor h3{
+    text-align: center;
+    margin-top: 20px;
+    color: #9b039b;
+}
+
+.mentor p{
+    text-align: center;
+    margin-top: 10px;
+}
+.image{
+    width: 180px;
+    height: 180px;
+    display: block;
+    border-radius: 50%;
+    margin: 10px auto;
+
+}
+/* section 3------------------------------------------------------------------------------------------------ */
+
+#sec3-heading{
+    margin-left: 50px;
+    color: #9b039b;
+    border-bottom: 1px solid #9b039b;
+    width: 230px;
+}
+.advisors{
+    width: 280px;
+    height: 350px;
+    margin: 8px 40px 8px;
+    padding: 20px 20px;
+    text-align: justify;
+    margin-bottom: 30px;
+}
+.advisors h3{
+    text-align: center;
+    margin-top: 20px;
+    color: #9b039b;
+}
+.advisors h4{
+    text-align: center;
+    margin-top: 10px;
+    color: #9b039b;
+}
+.advisors p{
+    text-align: center;
+    margin-top: 10px;
+}
+.btn{
+    width: 200px;
+    height: 40px;
+    display: block;
+    margin: 10px auto;
+    font-size: 16px;
+    font-weight: bold;
+    
+    color: white;
+    border: 1px solid #9b039b;
+    background-color: #9b039b;
+    position: relative;
+    top: 10px;
+}
+
+.btn:hover {
+    color: #ffffff;
+    background: black;
+    border: 1px solid black;
+}
